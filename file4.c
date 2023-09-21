@@ -1,7 +1,7 @@
 #include "monty.h"
 
 
-/* int value; */
+int value;
 /**
  * push - pushes a new node with the given value to the stackn
  * @stack: double pointer to the head of the stackn
@@ -10,11 +10,9 @@
 
 void push(stackStrct_t **stack, unsigned int line_number)
 {
-		int value;
 		stackStrct_t *new = NULL;
 		(void)line_number;
 
-		value = 0;
 		new = createNode(value);
 
 		new->next = *stack;
@@ -35,7 +33,6 @@ void push(stackStrct_t **stack, unsigned int line_number)
 int getOpcodeFunc(stackStrct_t **stack, char *arg, char *val12,
 					int line_number)
 {
-	int value;
 	int i = 0;
 
 	instructionStrct_t op[] = {
