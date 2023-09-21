@@ -1,6 +1,5 @@
 #include "monty.h"
 
-
 /**
  * divide -  divides the second top element of the stackn
  * by the top element of the stackn

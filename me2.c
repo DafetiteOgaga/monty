@@ -1,6 +1,5 @@
 #include "monty.h"
 
-
 /**
  * swap - swaps the top two elements of the stack.j
  * @stack: double pointer to the head of the listj

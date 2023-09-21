@@ -92,8 +92,6 @@ void pop(stackStrct_t **stack, unsigned int line_number)
 		}
 }
 
-
-
 /**
  * nop - functionm
  * @stack: double pointer to the head of the listn
